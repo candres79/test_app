@@ -2,3 +2,21 @@
     <h1>Welcome to Awesome Software</h1>
     <h3>A membership site where entrepreneurs can meet developers.</h3>
 </div>
+<div class="row">
+    <div class="col-md-6">
+        <div class="well">
+         <h2 class="text-center">Basic Membership</h2> 
+         <h4>Sign Up For Free And Get Basic Access To Our Exclusive Community Now! </h4>
+         <br>
+         <%= link_to "Sign Up With Basic", new_user_registration_path, class: 'btn btn-primary btn-lg btn-block' %>
+        </div>
+    </div>
+    <div class="col-md-6">
+        <div class="well">
+         <h2 class="text-center">Pro Membership</h2>  
+         <h4>Sign Up For The Pro Account For $9.99/Month And Get Access To The Community With Contact Information!</h4>
+         <br>
+         <%= link_to "Sign Up Pro", new_user_registration_path, class: 'btn btn-success btn-lg btn-block' %>
+        </div>
+    </div>
+</div>
